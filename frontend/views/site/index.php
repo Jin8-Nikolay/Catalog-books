@@ -28,7 +28,10 @@ $this->title = 'My Yii Application';
             'short_description:ntext',
             //'date',
 
-            ['class' => 'yii\grid\ActionColumn'],
+            [
+                'class' => 'yii\grid\ActionColumn',
+                'template' => '',
+            ],
         ],
     ]); ?>
 
